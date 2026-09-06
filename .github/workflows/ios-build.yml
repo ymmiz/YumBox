@@ -1,0 +1,29 @@
+name: iOS Build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: macos-15
+    timeout-minutes: 30
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Resolve Swift packages
+        run: xcodebuild -resolvePackageDependencies -project YumBox.xcodeproj -scheme YumBox
+
+      - name: Build app and widget
+        run: >-
+          xcodebuild
+          -project YumBox.xcodeproj
+          -scheme YumBox
+          -configuration Debug
+          -destination 'generic/platform=iOS Simulator'
+          CODE_SIGNING_ALLOWED=NO
+          build
