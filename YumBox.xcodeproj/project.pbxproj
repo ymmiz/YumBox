@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF2D9D8F2C9FE12500B15D58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2D9D8E2C9FE12500B15D58 /* AppDelegate.swift */; };
+		AF2D9D912C9FE12500B15D58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2D9D902C9FE12500B15D58 /* SceneDelegate.swift */; };
+		AF2D9D962C9FE12500B15D58 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AF2D9D952C9FE12500B15D58 /* Base */; };
+		AF2D9D982C9FE12600B15D58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF2D9D972C9FE12600B15D58 /* Assets.xcassets */; };
+		AF2D9D9B2C9FE12600B15D58 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AF2D9D9A2C9FE12600B15D58 /* Base */; };
+		AF2D9DA42C9FE1CF00B15D58 /* GooglePlaces in Frameworks */ = {isa = PBXBuildFile; productRef = AF2D9DA32C9FE1CF00B15D58 /* GooglePlaces */; };
+		AF2D9DA72C9FE23F00B15D58 /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = AF2D9DA62C9FE23F00B15D58 /* GoogleMaps */; };
+		AF2D9DAA2C9FE2DB00B15D58 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2D9DA92C9FE2DB00B15D58 /* MapViewController.swift */; };
+		AF2D9DAD2C9FECED00B15D58 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2D9DAC2C9FECED00B15D58 /* Box.swift */; };
+		AF2D9DB02C9FED7800B15D58 /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2D9DAF2C9FED7800B15D58 /* TimerViewModel.swift */; };
+		AF2D9DB32C9FEE1400B15D58 /* FoundationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2D9DB22C9FEE1400B15D58 /* FoundationExtension.swift */; };
+		AF2D9DB52C9FEE5C00B15D58 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2D9DB42C9FEE5C00B15D58 /* TimerViewController.swift */; };
+		AF2D9DB72C9FEF0C00B15D58 /* TimerStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2D9DB62C9FEF0C00B15D58 /* TimerStartViewController.swift */; };
+		AF2D9DC52CA0088300B15D58 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF2D9DC42CA0088300B15D58 /* WidgetKit.framework */; };
+		AF2D9DC72CA0088300B15D58 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF2D9DC62CA0088300B15D58 /* SwiftUI.framework */; };
+		AF2D9DCA2CA0088300B15D58 /* TipsWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2D9DC92CA0088300B15D58 /* TipsWidgetBundle.swift */; };
+		AF2D9DCC2CA0088300B15D58 /* TipsWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2D9DCB2CA0088300B15D58 /* TipsWidgetLiveActivity.swift */; };
+		AF2D9DCE2CA0088300B15D58 /* TipsWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2D9DCD2CA0088300B15D58 /* TipsWidget.swift */; };
+		AF2D9DD02CA0088300B15D58 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2D9DCF2CA0088300B15D58 /* AppIntent.swift */; };
+		AF2D9DD22CA0088500B15D58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF2D9DD12CA0088500B15D58 /* Assets.xcassets */; };
+		AF2D9DD62CA0088500B15D58 /* TipsWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AF2D9DC22CA0088300B15D58 /* TipsWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AF2D9DDC2CA00A5400B15D58 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = AF2D9DDB2CA00A5400B15D58 /* tips.json */; };
+		AF2D9DE22CA00D9E00B15D58 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = AF2D9DE12CA00D9E00B15D58 /* Alamofire */; };
+		AF4568D62CA1CDD300E1C300 /* YouTubeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4568D52CA1CDD300E1C300 /* YouTubeViewController.swift */; };
+		AF82597A2CA6925D00221636 /* MondayFeelings-7BD2l.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF8259792CA6925D00221636 /* MondayFeelings-7BD2l.ttf */; };
+		AFA31FE82CA15B9600808563 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA31FE72CA15B9600808563 /* Recipe.swift */; };
+		AFA31FEA2CA15CCF00808563 /* RecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA31FE92CA15CCF00808563 /* RecipeViewModel.swift */; };
+		AFA31FED2CA1601300808563 /* RecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA31FEC2CA1601300808563 /* RecipeTableViewCell.swift */; };
+		AFA31FEF2CA1609F00808563 /* RecipeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA31FEE2CA1609F00808563 /* RecipeCollectionViewCell.swift */; };
+		AFA31FF22CA160F800808563 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = AFA31FF12CA160F800808563 /* SDWebImage */; };
+		AFA31FF42CA161A300808563 /* RecipeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA31FF32CA161A300808563 /* RecipeListViewController.swift */; };
+		AFA31FF62CA161C700808563 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA31FF52CA161C700808563 /* TableViewCell.swift */; };
+		AFA31FF82CA1623F00808563 /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA31FF72CA1623F00808563 /* RecipeViewController.swift */; };
+		AFA31FFA2CA1629400808563 /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA31FF92CA1629400808563 /* FavouriteViewController.swift */; };
+		AFAF95DA2CA5682E0050B11A /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAF95D92CA5682E0050B11A /* AddViewController.swift */; };
+		AFBEA6AC2CA3FC8600558C41 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBEA6AB2CA3FC8600558C41 /* ShareViewController.swift */; };
+		AFBEA6AE2CA4025E00558C41 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBEA6AD2CA4025E00558C41 /* CollectionViewCell.swift */; };
+		AFF3182A2CA1DD1F004956EB /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF318292CA1DD1F004956EB /* CategoryViewController.swift */; };
+		CB80F3752CA9471D000063C3 /* timer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB80F3742CA9471D000063C3 /* timer.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF2D9DD42CA0088500B15D58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF2D9D832C9FE12500B15D58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF2D9DC12CA0088300B15D58;
+			remoteInfo = TipsWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AF2D9DDA2CA0088500B15D58 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AF2D9DD62CA0088500B15D58 /* TipsWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AF2D9D8B2C9FE12500B15D58 /* YumBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YumBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF2D9D8E2C9FE12500B15D58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF2D9D902C9FE12500B15D58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AF2D9D952C9FE12500B15D58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF2D9D972C9FE12600B15D58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF2D9D9A2C9FE12600B15D58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF2D9D9C2C9FE12600B15D58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF2D9DA92C9FE2DB00B15D58 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		AF2D9DAC2C9FECED00B15D58 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		AF2D9DAF2C9FED7800B15D58 /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
+		AF2D9DB22C9FEE1400B15D58 /* FoundationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationExtension.swift; sourceTree = "<group>"; };
+		AF2D9DB42C9FEE5C00B15D58 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		AF2D9DB62C9FEF0C00B15D58 /* TimerStartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerStartViewController.swift; sourceTree = "<group>"; };
+		AF2D9DC22CA0088300B15D58 /* TipsWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TipsWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF2D9DC42CA0088300B15D58 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		AF2D9DC62CA0088300B15D58 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		AF2D9DC92CA0088300B15D58 /* TipsWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsWidgetBundle.swift; sourceTree = "<group>"; };
+		AF2D9DCB2CA0088300B15D58 /* TipsWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		AF2D9DCD2CA0088300B15D58 /* TipsWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsWidget.swift; sourceTree = "<group>"; };
+		AF2D9DCF2CA0088300B15D58 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		AF2D9DD12CA0088500B15D58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF2D9DD32CA0088500B15D58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF2D9DDB2CA00A5400B15D58 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
+		AF4568D52CA1CDD300E1C300 /* YouTubeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeViewController.swift; sourceTree = "<group>"; };
+		AF8259792CA6925D00221636 /* MondayFeelings-7BD2l.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MondayFeelings-7BD2l.ttf"; sourceTree = "<group>"; };
+		AFA31FE72CA15B9600808563 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		AFA31FE92CA15CCF00808563 /* RecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewModel.swift; sourceTree = "<group>"; };
+		AFA31FEC2CA1601300808563 /* RecipeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableViewCell.swift; sourceTree = "<group>"; };
+		AFA31FEE2CA1609F00808563 /* RecipeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCollectionViewCell.swift; sourceTree = "<group>"; };
+		AFA31FF32CA161A300808563 /* RecipeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListViewController.swift; sourceTree = "<group>"; };
+		AFA31FF52CA161C700808563 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		AFA31FF72CA1623F00808563 /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
+		AFA31FF92CA1629400808563 /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
+		AFAF95D92CA5682E0050B11A /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		AFBEA6AB2CA3FC8600558C41 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		AFBEA6AD2CA4025E00558C41 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		AFF318292CA1DD1F004956EB /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		CB80F3742CA9471D000063C3 /* timer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = timer.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF2D9D882C9FE12500B15D58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF2D9DE22CA00D9E00B15D58 /* Alamofire in Frameworks */,
+				AF2D9DA72C9FE23F00B15D58 /* GoogleMaps in Frameworks */,
+				AFA31FF22CA160F800808563 /* SDWebImage in Frameworks */,
+				AF2D9DA42C9FE1CF00B15D58 /* GooglePlaces in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF2D9DBF2CA0088300B15D58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF2D9DC72CA0088300B15D58 /* SwiftUI.framework in Frameworks */,
+				AF2D9DC52CA0088300B15D58 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF2D9D822C9FE12500B15D58 = {
+			isa = PBXGroup;
+			children = (
+				AF2D9D8D2C9FE12500B15D58 /* YumBox */,
+				AF2D9DC82CA0088300B15D58 /* TipsWidget */,
+				AF2D9DC32CA0088300B15D58 /* Frameworks */,
+				AF2D9D8C2C9FE12500B15D58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF2D9D8C2C9FE12500B15D58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF2D9D8B2C9FE12500B15D58 /* YumBox.app */,
+				AF2D9DC22CA0088300B15D58 /* TipsWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF2D9D8D2C9FE12500B15D58 /* YumBox */ = {
+			isa = PBXGroup;
+			children = (
+				AF82597B2CA6934300221636 /* fonts */,
+				AFA31FEB2CA15FDC00808563 /* Views */,
+				AF2D9DB12C9FEDF400B15D58 /* Extensions */,
+				AF2D9DAE2C9FED5A00B15D58 /* ViewModels */,
+				AF2D9DAB2C9FECD500B15D58 /* Models */,
+				AF2D9D8E2C9FE12500B15D58 /* AppDelegate.swift */,
+				AF2D9D902C9FE12500B15D58 /* SceneDelegate.swift */,
+				AF2D9D942C9FE12500B15D58 /* Main.storyboard */,
+				AF2D9D972C9FE12600B15D58 /* Assets.xcassets */,
+				AF2D9D992C9FE12600B15D58 /* LaunchScreen.storyboard */,
+				CB80F3742CA9471D000063C3 /* timer.mp3 */,
+				AF2D9D9C2C9FE12600B15D58 /* Info.plist */,
+			);
+			path = YumBox;
+			sourceTree = "<group>";
+		};
+		AF2D9DA82C9FE26300B15D58 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AF2D9DA92C9FE2DB00B15D58 /* MapViewController.swift */,
+				AF2D9DB42C9FEE5C00B15D58 /* TimerViewController.swift */,
+				AF2D9DB62C9FEF0C00B15D58 /* TimerStartViewController.swift */,
+				AFA31FF32CA161A300808563 /* RecipeListViewController.swift */,
+				AFA31FF72CA1623F00808563 /* RecipeViewController.swift */,
+				AFA31FF92CA1629400808563 /* FavouriteViewController.swift */,
+				AF4568D52CA1CDD300E1C300 /* YouTubeViewController.swift */,
+				AFF318292CA1DD1F004956EB /* CategoryViewController.swift */,
+				AFBEA6AB2CA3FC8600558C41 /* ShareViewController.swift */,
+				AFAF95D92CA5682E0050B11A /* AddViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AF2D9DAB2C9FECD500B15D58 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AF2D9DAC2C9FECED00B15D58 /* Box.swift */,
+				AFA31FE72CA15B9600808563 /* Recipe.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AF2D9DAE2C9FED5A00B15D58 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AF2D9DAF2C9FED7800B15D58 /* TimerViewModel.swift */,
+				AFA31FE92CA15CCF00808563 /* RecipeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AF2D9DB12C9FEDF400B15D58 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AF2D9DB22C9FEE1400B15D58 /* FoundationExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AF2D9DC32CA0088300B15D58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF2D9DC42CA0088300B15D58 /* WidgetKit.framework */,
+				AF2D9DC62CA0088300B15D58 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF2D9DC82CA0088300B15D58 /* TipsWidget */ = {
+			isa = PBXGroup;
+			children = (
+				AF2D9DC92CA0088300B15D58 /* TipsWidgetBundle.swift */,
+				AF2D9DCB2CA0088300B15D58 /* TipsWidgetLiveActivity.swift */,
+				AF2D9DCD2CA0088300B15D58 /* TipsWidget.swift */,
+				AF2D9DCF2CA0088300B15D58 /* AppIntent.swift */,
+				AF2D9DDB2CA00A5400B15D58 /* tips.json */,
+				AF2D9DD12CA0088500B15D58 /* Assets.xcassets */,
+				AF2D9DD32CA0088500B15D58 /* Info.plist */,
+			);
+			path = TipsWidget;
+			sourceTree = "<group>";
+		};
+		AF82597B2CA6934300221636 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AF8259792CA6925D00221636 /* MondayFeelings-7BD2l.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		AFA31FEB2CA15FDC00808563 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AF2D9DA82C9FE26300B15D58 /* Controllers */,
+				AFA31FEC2CA1601300808563 /* RecipeTableViewCell.swift */,
+				AFA31FEE2CA1609F00808563 /* RecipeCollectionViewCell.swift */,
+				AFA31FF52CA161C700808563 /* TableViewCell.swift */,
+				AFBEA6AD2CA4025E00558C41 /* CollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF2D9D8A2C9FE12500B15D58 /* YumBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF2D9D9F2C9FE12600B15D58 /* Build configuration list for PBXNativeTarget "YumBox" */;
+			buildPhases = (
+				AF2D9D872C9FE12500B15D58 /* Sources */,
+				AF2D9D882C9FE12500B15D58 /* Frameworks */,
+				AF2D9D892C9FE12500B15D58 /* Resources */,
+				AF2D9DDA2CA0088500B15D58 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF2D9DD52CA0088500B15D58 /* PBXTargetDependency */,
+			);
+			name = YumBox;
+			packageProductDependencies = (
+				AF2D9DA32C9FE1CF00B15D58 /* GooglePlaces */,
+				AF2D9DA62C9FE23F00B15D58 /* GoogleMaps */,
+				AF2D9DE12CA00D9E00B15D58 /* Alamofire */,
+				AFA31FF12CA160F800808563 /* SDWebImage */,
+			);
+			productName = YumBox;
+			productReference = AF2D9D8B2C9FE12500B15D58 /* YumBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF2D9DC12CA0088300B15D58 /* TipsWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF2D9DD72CA0088500B15D58 /* Build configuration list for PBXNativeTarget "TipsWidgetExtension" */;
+			buildPhases = (
+				AF2D9DBE2CA0088300B15D58 /* Sources */,
+				AF2D9DBF2CA0088300B15D58 /* Frameworks */,
+				AF2D9DC02CA0088300B15D58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TipsWidgetExtension;
+			productName = TipsWidgetExtension;
+			productReference = AF2D9DC22CA0088300B15D58 /* TipsWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF2D9D832C9FE12500B15D58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					AF2D9D8A2C9FE12500B15D58 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					AF2D9DC12CA0088300B15D58 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = AF2D9D862C9FE12500B15D58 /* Build configuration list for PBXProject "YumBox" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF2D9D822C9FE12500B15D58;
+			packageReferences = (
+				AF2D9DA22C9FE1CF00B15D58 /* XCRemoteSwiftPackageReference "ios-places-sdk" */,
+				AF2D9DA52C9FE23F00B15D58 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */,
+				AF2D9DE02CA00D9E00B15D58 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				AFA31FF02CA160F800808563 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
+			productRefGroup = AF2D9D8C2C9FE12500B15D58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF2D9D8A2C9FE12500B15D58 /* YumBox */,
+				AF2D9DC12CA0088300B15D58 /* TipsWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF2D9D892C9FE12500B15D58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF2D9D982C9FE12600B15D58 /* Assets.xcassets in Resources */,
+				AF2D9D9B2C9FE12600B15D58 /* Base in Resources */,
+				AF82597A2CA6925D00221636 /* MondayFeelings-7BD2l.ttf in Resources */,
+				CB80F3752CA9471D000063C3 /* timer.mp3 in Resources */,
+				AF2D9D962C9FE12500B15D58 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF2D9DC02CA0088300B15D58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF2D9DD22CA0088500B15D58 /* Assets.xcassets in Resources */,
+				AF2D9DDC2CA00A5400B15D58 /* tips.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF2D9D872C9FE12500B15D58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA31FF62CA161C700808563 /* TableViewCell.swift in Sources */,
+				AFBEA6AC2CA3FC8600558C41 /* ShareViewController.swift in Sources */,
+				AFA31FF82CA1623F00808563 /* RecipeViewController.swift in Sources */,
+				AFF3182A2CA1DD1F004956EB /* CategoryViewController.swift in Sources */,
+				AFA31FFA2CA1629400808563 /* FavouriteViewController.swift in Sources */,
+				AF2D9D8F2C9FE12500B15D58 /* AppDelegate.swift in Sources */,
+				AFA31FED2CA1601300808563 /* RecipeTableViewCell.swift in Sources */,
+				AFA31FEF2CA1609F00808563 /* RecipeCollectionViewCell.swift in Sources */,
+				AFA31FF42CA161A300808563 /* RecipeListViewController.swift in Sources */,
+				AF2D9D912C9FE12500B15D58 /* SceneDelegate.swift in Sources */,
+				AFA31FEA2CA15CCF00808563 /* RecipeViewModel.swift in Sources */,
+				AF2D9DAA2C9FE2DB00B15D58 /* MapViewController.swift in Sources */,
+				AF2D9DB52C9FEE5C00B15D58 /* TimerViewController.swift in Sources */,
+				AFAF95DA2CA5682E0050B11A /* AddViewController.swift in Sources */,
+				AF2D9DB02C9FED7800B15D58 /* TimerViewModel.swift in Sources */,
+				AF2D9DB72C9FEF0C00B15D58 /* TimerStartViewController.swift in Sources */,
+				AF2D9DAD2C9FECED00B15D58 /* Box.swift in Sources */,
+				AFBEA6AE2CA4025E00558C41 /* CollectionViewCell.swift in Sources */,
+				AF2D9DB32C9FEE1400B15D58 /* FoundationExtension.swift in Sources */,
+				AFA31FE82CA15B9600808563 /* Recipe.swift in Sources */,
+				AF4568D62CA1CDD300E1C300 /* YouTubeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF2D9DBE2CA0088300B15D58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF2D9DCC2CA0088300B15D58 /* TipsWidgetLiveActivity.swift in Sources */,
+				AF2D9DD02CA0088300B15D58 /* AppIntent.swift in Sources */,
+				AF2D9DCE2CA0088300B15D58 /* TipsWidget.swift in Sources */,
+				AF2D9DCA2CA0088300B15D58 /* TipsWidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF2D9DD52CA0088500B15D58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF2D9DC12CA0088300B15D58 /* TipsWidgetExtension */;
+			targetProxy = AF2D9DD42CA0088500B15D58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF2D9D942C9FE12500B15D58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF2D9D952C9FE12500B15D58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF2D9D992C9FE12600B15D58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF2D9D9A2C9FE12600B15D58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF2D9D9D2C9FE12600B15D58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF2D9D9E2C9FE12600B15D58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF2D9DA02C9FE12600B15D58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				GOOGLE_MAPS_API_KEY = "";
+				INFOPLIST_FILE = YumBox/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zin.hein.YumBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF2D9DA12C9FE12600B15D58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				GOOGLE_MAPS_API_KEY = "";
+				INFOPLIST_FILE = YumBox/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zin.hein.YumBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF2D9DD82CA0088500B15D58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TipsWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TipsWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zin.hein.YumBox.TipsWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF2D9DD92CA0088500B15D58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TipsWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TipsWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zin.hein.YumBox.TipsWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF2D9D862C9FE12500B15D58 /* Build configuration list for PBXProject "YumBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF2D9D9D2C9FE12600B15D58 /* Debug */,
+				AF2D9D9E2C9FE12600B15D58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF2D9D9F2C9FE12600B15D58 /* Build configuration list for PBXNativeTarget "YumBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF2D9DA02C9FE12600B15D58 /* Debug */,
+				AF2D9DA12C9FE12600B15D58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF2D9DD72CA0088500B15D58 /* Build configuration list for PBXNativeTarget "TipsWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF2D9DD82CA0088500B15D58 /* Debug */,
+				AF2D9DD92CA0088500B15D58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AF2D9DA22C9FE1CF00B15D58 /* XCRemoteSwiftPackageReference "ios-places-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-places-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.1.0;
+			};
+		};
+		AF2D9DA52C9FE23F00B15D58 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-maps-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.1.1;
+			};
+		};
+		AF2D9DE02CA00D9E00B15D58 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+		AFA31FF02CA160F800808563 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.19.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AF2D9DA32C9FE1CF00B15D58 /* GooglePlaces */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF2D9DA22C9FE1CF00B15D58 /* XCRemoteSwiftPackageReference "ios-places-sdk" */;
+			productName = GooglePlaces;
+		};
+		AF2D9DA62C9FE23F00B15D58 /* GoogleMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF2D9DA52C9FE23F00B15D58 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMaps;
+		};
+		AF2D9DE12CA00D9E00B15D58 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF2D9DE02CA00D9E00B15D58 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		AFA31FF12CA160F800808563 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AFA31FF02CA160F800808563 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AF2D9D832C9FE12500B15D58 /* Project object */;
+}
